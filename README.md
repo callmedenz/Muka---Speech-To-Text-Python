@@ -94,14 +94,6 @@ This will:
 
 ---
 
-## 🔮 Roadmap
-- [ ] Append multiple recognized sentences into `input.txt` (transcript mode)  
-- [ ] Add support for multiple languages  
-- [ ] Create a desktop app (PyQt / Tkinter)  
-- [ ] Deploy as a web service (Flask / FastAPI)  
-
----
-
 ## 🤝 Contributing
 Contributions are welcome! 🎉  
 - Fork the repo  
