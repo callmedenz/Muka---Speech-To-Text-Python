@@ -1,0 +1,6 @@
+SpeechRecognition
+pyaudio
+selenium
+webdriver-manager
+colorama
+    
