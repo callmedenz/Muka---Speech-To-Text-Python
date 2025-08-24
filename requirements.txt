@@ -3,4 +3,4 @@ pyaudio
 selenium
 webdriver-manager
 colorama
-    
+setuptools

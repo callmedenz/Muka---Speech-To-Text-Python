@@ -1,0 +1,2 @@
+[console_scripts]
+netyht-stt = NetyHT_STT.speech_to_text:run

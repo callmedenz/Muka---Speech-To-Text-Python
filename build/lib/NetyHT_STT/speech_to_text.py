@@ -4,16 +4,22 @@
 #pip install webdriver-manager
 
 import speech_recognition as sr                                         # Library for speech_to_text
+
 import os                        
+
 import threading                                                        # For running multiple tasks together
+
 from colorama import Fore, Style, init                                  # For colored console text
+
 from selenium import webdriver                                          #Use for automation of the website
 from selenium.webdriver.common.by import By                             #To get the id
 from selenium.webdriver.support.ui import WebDriverWait                 #Will wait untill the element is loaded
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+
 from os import getcwd                                                   #To find the file which we are going to automate
+
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--use-fake-ui-for-media-stream")           #To bypass the permission of mic
@@ -103,13 +109,13 @@ def Speech_To_Text():
                 print(Fore.RED + f"API error: {e}")
 
 
-if __name__ == "__main__":
-
+def run():
     stt_thread = threading.Thread(target=Speech_To_Text)
 
     print_thread = threading.Thread(target=print_loop, daemon=True)
 
     stt_thread.start()
-    print_thread.start()
 
+    print_thread.start()
+    
     stt_thread.join()
