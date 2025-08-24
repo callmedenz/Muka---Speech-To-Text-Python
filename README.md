@@ -18,19 +18,6 @@ It listens to your voice, displays it live in the browser, and saves the recogni
 
 ---
 
-## 📂 Project Structure
-```
-.
-├── index.html          # Frontend UI
-├── style.css           # Styling
-├── script.js           # Speech recognition logic
-├── speech_to_text.py   # Selenium + Python automation
-├── requirements.txt    # Python dependencies
-└── README.md           # Documentation
-```
-
----
-
 ## 🚀 Installation & Setup  
 
 ### 1️⃣ Clone the Repository
