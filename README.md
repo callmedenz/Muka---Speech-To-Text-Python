@@ -37,7 +37,7 @@ cd <your-repo-name>
 ```bash
 python -m venv venv
 # Activate on Windows
-venv\Scripts\activate
+venv\Scriptsctivate
 # Activate on Mac/Linux
 source venv/bin/activate
 ```
@@ -77,7 +77,7 @@ This will:
   selenium
   webdriver-manager
   colorama
-  ```._  
+  ```
 
 ---
 
